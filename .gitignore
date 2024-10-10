@@ -1,0 +1,4 @@
+server/venv/
+server/node_modules
+moonlayhr/node_modules
+server/.env

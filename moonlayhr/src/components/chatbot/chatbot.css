@@ -1,0 +1,104 @@
+.react-chatbot-kit-chat-container {
+    margin: auto;
+    width: 90vw;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-inner-container {
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-header {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-input-container {
+}
+
+.react-chatbot-kit-chat-message-container {
+    height: 70vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-input-form {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-btn-send {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+    width: 85% !important;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.react-chatbot-kit-chat-bot-avatar-container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-avatar-icon {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter {
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-message {
+    left: 0 !important;
+    margin-left: 0;
+    width: 60%;
+    white-space: pre-wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-chatbot-kit-chat-bot-loading-icon-container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.chatbot-loader-container {
+    font-family: 'Poppins', sans-serif;
+}
+
+#chatbot-loader #chatbot-loader-dot1 {
+    
+}
+
+#chatbot-loader #chatbot-loader-dot2 {
+}
+
+#chatbot-loader #chatbot-loader-dot3 {
+}
+
+.react-chatbot-kit-error {
+}
+
+.react-chatbot-kit-error-container {
+}
+
+.react-chatbot-kit-error-header {
+}
+
+.react-chatbot-kit-error-docs {
+}

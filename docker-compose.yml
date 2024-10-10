@@ -1,0 +1,26 @@
+services:
+  frontend:
+    build:
+      context: ./moonlayhr
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend  # Frontend depends on the backend to be up first
+
+  backend:
+    build:
+      context: ./server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server:/app
+    environment:
+      - FLASK_ENV=development
+    stdin_open: true
+    tty: true
+
+networks:
+  default:
+    driver: bridge

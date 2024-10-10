@@ -1,0 +1,102 @@
+/* Primary Styles */
+
+.navbar {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: #036b8e !important;
+  height: 7vh;
+}
+
+.secondary {
+  background-color: #1892b9 !important;
+}
+
+.nav-item {
+  font-family: "Libre Franklin", sans-serif !important;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #333;
+  padding-left: 200px;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+.text-hyperlink {
+  padding-left: 10px;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 0.5em 1em;
+  font-family: "Libre Franklin", sans-serif !important;
+}
+
+.nav-link:active {
+  color: white !important;
+  text-decoration: dashed;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: auto;
+  height: 30px;
+  background: white;
+}
+
+.dropdown-menu {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#dropdownMenuLink {
+  background-color: transparent !important;
+  border: 0;
+  max-width: 50px;
+  margin-left: 100px;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.fas.fa-caret-down {
+  margin-left: 0.5em;
+  transition: transform 0.3s;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+  }
+
+  .navbar-toggler {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .collapse.show {
+    display: block !important;
+    background-color: #036b8e;
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  .nav-item {
+    padding-left: 0 !important;
+    text-align: center;
+    color: white !important;
+  }
+
+  .dropdown-menu {
+    position: static;
+    float: none;
+  }
+}

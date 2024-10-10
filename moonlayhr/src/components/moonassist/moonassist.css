@@ -1,0 +1,51 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns: left boxes take 1fr, right box takes 2fr */
+  grid-template-rows: 2fr 1.2fr; /* Adjusted to make the second box slightly taller than the right box */
+  height: 90vh; /* Ensure the grid spans the entire viewport height */
+}
+
+.grid-box {
+  background-color: #f8f9fa; /* Light background for empty boxes */
+  border: 1px solid #dee2e6;
+  margin: 10px;
+}
+
+.grid-right-box {
+  background-color: #ffffff; /* White background for the recording box */
+  border: 1px solid #dee2e6;
+  margin: 10px;
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  grid-row: 1 / span 2; /* Make this box span the full height of the left side */
+  grid-column: 2; /* Position this box in the second column (right side) */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.canvas {
+  background-color: transparent;
+}
+
+.record-btn-container {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 20px; /* Add space between buttons */
+  padding-bottom: 20px;
+}
+
+.record-btn {
+  background-color: #48abe0;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 120px;
+  width: 120px;
+  box-shadow: 0 2px 4px darkslategray;
+   border-radius: 50%;
+    cursor: pointer;
+ transition: all 0.2s ease;
+}
